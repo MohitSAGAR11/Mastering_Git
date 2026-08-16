@@ -9,3 +9,20 @@ git remote add origin https://github.com/MohitSAGAR11/Mastering_Git.git
 git branch -M main
 git push -u origin main
 git remote -v
+ 2 git branch
+   3 git switch -c feature
+   4 git branch
+   5 git switch main
+   6 git switch -c dev
+   7 git branch
+   8 git status
+   9 git add .
+  10 git commit -m "dev file commited"
+  11 git push
+  12 clear
+  13 git switch main
+  14 git switch  dev
+  15 git push origin dev
+  16 git switch main
+  17 git pull origin main
+  18 clear
