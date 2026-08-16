@@ -1,0 +1,11 @@
+git init
+git status
+clear
+git commit -m "initial"
+rm testing.py
+git restore testing.py
+git log 
+git remote add origin https://github.com/MohitSAGAR11/Mastering_Git.git
+git branch -M main
+git push -u origin main
+git remote -v
